@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-valence = { git = "https://github.com/valence-rs/valence" }
+valence = { git = "https://github.com/valence-rs/valence", rev = "c9aeda7dbd44bb7d4a3aaaeddb425b4ffa0459cb" }
+valence_anvil = { git = "https://github.com/valence-rs/valence", features = ["valence"], rev = "c9aeda7dbd44bb7d4a3aaaeddb425b4ffa0459cb" }
 rand = "0.8.5"
 tracing-subscriber = "0.3.16"
 redis = "0.22.1"
